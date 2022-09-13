@@ -81,12 +81,12 @@ public class PlayerController : MonoBehaviour
             SetCountText();
         }
 
-        if (count == 12)
+        else if (count == 12)
         {
             transform.position = new Vector3(50.0f, 0.5f, 50.0f);
         }
 
-        if (count == 20)
+        else if (count == 20)
         {
             transform.position = new Vector3(100.0f, 0.5f, 100.0f);
         }
