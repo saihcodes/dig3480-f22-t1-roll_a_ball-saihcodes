@@ -51,10 +51,10 @@ public class PlayerController : MonoBehaviour
         }
 
         livestext.text = "Lives: " + lives.ToString();
-        if (lives == 0) 
+        if (lives == 0)
         {
-          LoseTextObject.SetActive(true);
-          Destroy(gameObject);
+            LoseTextObject.SetActive(true);
+            Destroy(gameObject);
         }
     }
 
@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
         else if (other.gameObject.CompareTag("Enemy"))
         {
             other.gameObject.SetActive(false);
-            count = count - 1;
+            lives = lives - 1;
             SetCountText();
         }
 
