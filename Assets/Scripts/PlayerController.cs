@@ -17,7 +17,6 @@ public class PlayerController : MonoBehaviour
     private int lives;
     private float movementX;
     private float movementY;
-    private int gameObjectspeed;
 
     // Start is called before the first frame update
     void Start()
@@ -55,7 +54,6 @@ public class PlayerController : MonoBehaviour
         if (lives == 0)
         {
             LoseTextObject.SetActive(true);
-        
 
         }
     }
