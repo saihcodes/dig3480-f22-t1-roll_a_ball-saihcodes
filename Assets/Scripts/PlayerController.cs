@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
         if (lives == 0)
         {
             LoseTextObject.SetActive(true);
-            GameObject.velocity = Vector2.zero; 
+            GameObject.velocity = Vector3.zero; 
         }
     }
 
