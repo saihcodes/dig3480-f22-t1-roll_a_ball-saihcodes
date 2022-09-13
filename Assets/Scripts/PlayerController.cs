@@ -54,8 +54,7 @@ public class PlayerController : MonoBehaviour
         if (lives == 0)
         {
             LoseTextObject.SetActive(true);
-            Vector3 movement = new Vector3(movementX, 0.0f, movementY);
-            rb.AddForce(movement * 0);
+
         }
     }
 
