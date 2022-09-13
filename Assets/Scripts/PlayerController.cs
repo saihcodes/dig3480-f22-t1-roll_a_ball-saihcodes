@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
         }
 
         livestext.text = "Lives: " + lives.ToString();
-        if (lives == 0)
+       else if (lives == 0)
         {
             LoseTextObject.SetActive(true);
             speed = 0;
