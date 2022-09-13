@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
             winTextObject.SetActive(true);
         }
 
-        livestext.text = "Lives: " + lives.ToString();
+        livestext.text = "lives: " + lives.ToString();
         if (lives == 0)   
         {
             LoseTextObject.SetActive(true);
