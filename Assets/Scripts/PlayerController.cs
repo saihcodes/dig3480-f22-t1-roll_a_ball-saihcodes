@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
         if (lives == 0)
         {
             LoseTextObject.SetActive(true);
-            bool v = (gameObjectspeed) == 0;
+        
 
         }
     }
