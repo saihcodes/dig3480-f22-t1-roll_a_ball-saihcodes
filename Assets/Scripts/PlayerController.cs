@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
         if (lives == 0)
         {
             LoseTextObject.SetActive(true);
-            gameObject.transform.position += new Vector3(0, 0, 0) * 15.5f; 
+            gameObject.transform.position += new Vector3(0, 0.0f, 0) * 0; 
         }
     }
 
