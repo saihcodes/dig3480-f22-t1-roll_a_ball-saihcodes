@@ -51,8 +51,8 @@ public class PlayerController : MonoBehaviour
         }
 
         livestext.text = "Lives: " + lives.ToString();
-       { if (lives == 0)
-                Destroy(gameObject);}
+        if (lives == 0)
+            Destroy(gameObject);
         {
             LoseTextObject.SetActive(true);
             
