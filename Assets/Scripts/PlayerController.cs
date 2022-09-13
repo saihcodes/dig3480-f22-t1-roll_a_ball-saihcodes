@@ -55,6 +55,7 @@ public class PlayerController : MonoBehaviour
         {
             LoseTextObject.SetActive(true);
             Destroy(gameObject);
+            
         }
     }
 
